@@ -1,4 +1,4 @@
-/** Default Open Graph / social share preview (1200×630 hero banner). */
+/** Everdrop hero banner — Open Graph / social share preview (1200×630 JPEG). */
 export const DEFAULT_OG_IMAGE = "/og/default.jpg";
 
 export const DEFAULT_OG_IMAGE_WIDTH = 1200;
