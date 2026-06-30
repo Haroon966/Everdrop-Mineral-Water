@@ -22,11 +22,37 @@ npm run build
 
 Upload the contents of the **`/out`** folder to your hosting web root (e.g. `public_html`).
 
+### GitHub Pages
+
+This repo is configured for automatic deployment to GitHub Pages at:
+
+**https://haroon966.github.io/Everdrop-Mineral-Water/**
+
+#### One-time GitHub setup
+
+1. Push this repo to `github.com/Haroon966/Everdrop-Mineral-Water`
+2. Go to **Settings → Pages**
+3. Under **Build and deployment**, set **Source** to **GitHub Actions**
+4. Push to `main` (or run the workflow manually under **Actions**)
+
+The workflow [`.github/workflows/github-pages.yml`](.github/workflows/github-pages.yml) builds the static site and deploys the `out/` folder on every push to `main`.
+
+#### Test GitHub Pages build locally
+
+```bash
+npm run build:gh-pages
+npx serve out -l 4000
+```
+
+Open [http://localhost:4000/Everdrop-Mineral-Water/](http://localhost:4000/Everdrop-Mineral-Water/) — assets use the `/Everdrop-Mineral-Water/` base path.
+
 | Setting | Value |
 |---------|-------|
 | Build output | `/out` |
 | Static export | Yes — no Node.js server required |
 | Trailing slashes | Enabled (`/about/` not `/about`) |
+| GitHub Pages base path | `/Everdrop-Mineral-Water` |
+| `.nojekyll` | Included (required for `_next/` assets) |
 
 ## Editing Content (No Code Required)
 
@@ -88,11 +114,19 @@ out/               ← deploy this folder
 
 ## Environment Variables
 
+Copy `.env.example` to `.env.local` for local development:
+
 ```env
 NEXT_PUBLIC_SITE_URL=https://everdropmineralwater.com
 ```
 
-Used for canonical URLs, sitemap, and Open Graph tags.
+| Variable | Purpose |
+|----------|---------|
+| `NEXT_PUBLIC_SITE_URL` | Canonical URLs, sitemap, Open Graph (no trailing slash) |
+| `GITHUB_PAGES` | Set to `true` in CI for `/Everdrop-Mineral-Water` base path |
+| `NEXT_PUBLIC_GSC_VERIFICATION` | Optional Google Search Console tag |
+
+For GitHub Pages, CI sets `NEXT_PUBLIC_SITE_URL=https://haroon966.github.io/Everdrop-Mineral-Water` automatically.
 
 ## Tech Stack
 

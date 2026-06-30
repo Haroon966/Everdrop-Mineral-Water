@@ -39,7 +39,6 @@ export async function generateMetadata({ params }: PageProps) {
       `mineral water ${area.region}`,
       "Everdrop water",
     ],
-    image: "/og/default.jpg",
   });
 }
 

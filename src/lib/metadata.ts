@@ -1,5 +1,11 @@
 import type { Metadata } from "next";
 import { getSiteConfig } from "./content";
+import {
+  DEFAULT_OG_IMAGE,
+  DEFAULT_OG_IMAGE_ALT,
+  DEFAULT_OG_IMAGE_HEIGHT,
+  DEFAULT_OG_IMAGE_WIDTH,
+} from "./og-image";
 import { absoluteUrl, getSiteUrl } from "./site-url";
 
 export function createMetadata({
@@ -8,12 +14,14 @@ export function createMetadata({
   path = "/",
   keywords,
   image,
+  imageAlt,
 }: {
   title?: string;
   description?: string;
   path?: string;
   keywords?: string[];
   image?: string;
+  imageAlt?: string;
 }): Metadata {
   const site = getSiteConfig();
   const pageTitle = title
@@ -21,7 +29,9 @@ export function createMetadata({
     : site.seo.defaultTitle;
   const pageDescription = description ?? site.seo.defaultDescription;
   const url = absoluteUrl(path);
-  const ogImage = image ? absoluteUrl(image) : absoluteUrl("/og/default.jpg");
+  const ogImagePath = image ?? DEFAULT_OG_IMAGE;
+  const ogImage = absoluteUrl(ogImagePath);
+  const ogAlt = imageAlt ?? (image ? pageTitle : DEFAULT_OG_IMAGE_ALT);
 
   return {
     title: pageTitle,
@@ -35,13 +45,28 @@ export function createMetadata({
       siteName: site.brand.name,
       locale: "en_PK",
       type: "website",
-      images: [{ url: ogImage, width: 1200, height: 630, alt: pageTitle }],
+      images: [
+        {
+          url: ogImage,
+          width: DEFAULT_OG_IMAGE_WIDTH,
+          height: DEFAULT_OG_IMAGE_HEIGHT,
+          alt: ogAlt,
+          type: ogImagePath.endsWith(".png") ? "image/png" : "image/jpeg",
+        },
+      ],
     },
     twitter: {
       card: "summary_large_image",
       title: pageTitle,
       description: pageDescription,
-      images: [ogImage],
+      images: [
+        {
+          url: ogImage,
+          width: DEFAULT_OG_IMAGE_WIDTH,
+          height: DEFAULT_OG_IMAGE_HEIGHT,
+          alt: ogAlt,
+        },
+      ],
     },
   };
 }

@@ -1,5 +1,6 @@
 import { getAllDeliveryAreas } from "./areas";
 import { getSiteConfig, getProducts, getTestimonials } from "./content";
+import { DEFAULT_OG_IMAGE } from "./og-image";
 import { absoluteUrl } from "./site-url";
 import type { FaqItem, Product } from "./types";
 
@@ -42,7 +43,7 @@ export function localBusinessSchema() {
     url: absoluteUrl("/"),
     telephone: site.contact.phone,
     email: site.contact.email,
-    image: absoluteUrl("/og/default.jpg"),
+    image: absoluteUrl(DEFAULT_OG_IMAGE),
     address: {
       "@type": "PostalAddress",
       streetAddress: site.contact.address.street,

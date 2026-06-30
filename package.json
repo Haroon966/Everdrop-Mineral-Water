@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "build:gh-pages": "GITHUB_PAGES=true NEXT_PUBLIC_SITE_URL=https://haroon966.github.io/Everdrop-Mineral-Water next build",
     "start": "next start",
     "lint": "eslint"
   },
