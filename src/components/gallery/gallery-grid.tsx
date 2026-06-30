@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { Card, CardContent } from "@/components/ui/card";
+import { withBasePath } from "@/lib/base-path";
 import type { GalleryImage } from "@/lib/types";
 
 interface GalleryGridProps {
@@ -19,7 +20,7 @@ export function GalleryGrid({ images, limit }: GalleryGridProps) {
         >
           <div className="relative aspect-[4/3] overflow-hidden">
             <Image
-              src={image.src}
+              src={image.src.startsWith("/") ? withBasePath(image.src) : image.src}
               alt={image.alt}
               fill
               className="object-cover transition-opacity duration-200 group-hover:opacity-90"

@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { withBasePath } from "@/lib/base-path";
 import { AnimateOnScroll } from "@/components/animations";
 import { SectionHeading } from "@/components/section-heading";
 
@@ -37,7 +38,7 @@ export function AboutStory() {
             <div className="relative overflow-hidden rounded-3xl border border-[#90e0ef]/60 bg-gradient-to-br from-[#caf0f8]/80 to-white shadow-lg dark:border-[#00b4d8]/20 dark:from-[#0077b6]/20 dark:to-[#03045e]/60">
               <div className="flex items-end justify-center px-8 pt-10 pb-4">
                 <Image
-                  src="/everdrop-water-bottle.png"
+                  src={withBasePath("/everdrop-water-bottle.png")}
                   alt="Everdrop 19L mineral water bottle"
                   width={320}
                   height={400}

@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import { useRef } from "react";
+import { withBasePath } from "@/lib/base-path";
 import { gsap, registerGsap, useGSAP } from "@/lib/gsap/register";
 
 export function HeroBottle() {
@@ -41,7 +42,7 @@ export function HeroBottle() {
   return (
     <div ref={ref} className="flex translate-x-2 items-end justify-center sm:translate-x-6 lg:translate-x-20">
       <Image
-        src="/everdrop-water-bottle.png"
+        src={withBasePath("/everdrop-water-bottle.png")}
         alt="Everdrop 19L mineral water bottle"
         width={1086}
         height={1448}

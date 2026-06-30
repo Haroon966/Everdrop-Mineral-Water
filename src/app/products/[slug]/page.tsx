@@ -8,6 +8,7 @@ import { GalleryGrid } from "@/components/gallery/gallery-grid";
 import { ButtonLink } from "@/components/ui/button-link";
 import { Badge } from "@/components/ui/badge";
 import { getPageKeywords, getProductBySlug, getProducts, getSiteConfig } from "@/lib/content";
+import { withBasePath } from "@/lib/base-path";
 import { createMetadata } from "@/lib/metadata";
 import { breadcrumbSchema, faqPageSchema, productSchema } from "@/lib/schema";
 import { absoluteUrl } from "@/lib/site-url";
@@ -85,7 +86,7 @@ export default async function ProductDetailPage({ params }: PageProps) {
             <div className="grid gap-12 lg:grid-cols-2">
               <div className="relative aspect-square overflow-hidden rounded-2xl">
                 <Image
-                  src={product.image}
+                  src={withBasePath(product.image)}
                   alt={`${product.name} — mineral water delivery Islamabad and Rawalpindi`}
                   fill
                   className="object-cover"

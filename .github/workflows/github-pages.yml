@@ -35,6 +35,7 @@ jobs:
         env:
           GITHUB_PAGES: "true"
           NEXT_PUBLIC_SITE_URL: https://haroon966.github.io/Everdrop-Mineral-Water
+          NEXT_PUBLIC_BASE_PATH: /Everdrop-Mineral-Water
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

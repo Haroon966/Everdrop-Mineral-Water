@@ -7,6 +7,7 @@ import {
   ShieldCheck,
 } from "lucide-react";
 import { HeroAnimation, HeroBottle } from "@/components/animations";
+import { withBasePath } from "@/lib/base-path";
 import { getTelHref } from "@/lib/contact-urls";
 import { WhatsAppIcon } from "@/components/icons/whatsapp-icon";
 
@@ -69,7 +70,7 @@ function StaticHeroBottle() {
   return (
     <div className="flex translate-x-2 items-end justify-center sm:translate-x-6">
       <Image
-        src="/everdrop-water-bottle.png"
+        src={withBasePath("/everdrop-water-bottle.png")}
         alt="Everdrop 19L mineral water bottle"
         width={1086}
         height={1448}

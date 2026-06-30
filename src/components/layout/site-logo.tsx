@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { withBasePath } from "@/lib/base-path";
 import { cn } from "@/lib/utils";
 
 interface SiteLogoProps {
@@ -9,7 +10,7 @@ interface SiteLogoProps {
 export function SiteLogo({ className, priority }: SiteLogoProps) {
   return (
     <Image
-      src="/everdrop-logo.png"
+      src={withBasePath("/everdrop-logo.png")}
       alt="Everdrop Pure Mineral Water"
       width={903}
       height={903}

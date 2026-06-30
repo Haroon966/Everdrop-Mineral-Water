@@ -1,3 +1,4 @@
+import { withBasePath } from "@/lib/base-path";
 import type { Product } from "@/lib/types";
 
 export type ProductCardImageVariant = "tall" | "medium" | "small" | "photo";
@@ -26,8 +27,10 @@ export function getProductCardImage(product: Product): ProductCardImageConfig {
     height: 160,
   };
 
+  const src = srcOverrideBySlug[product.slug] ?? product.image;
+
   return {
-    src: srcOverrideBySlug[product.slug] ?? product.image,
+    src: withBasePath(src),
     ...preset,
   };
 }

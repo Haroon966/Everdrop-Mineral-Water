@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { withBasePath } from "./base-path";
 import { getSiteConfig } from "./content";
 import {
   DEFAULT_OG_IMAGE,
@@ -78,12 +79,12 @@ export function getRootMetadata(): Metadata {
     metadataBase: new URL(getSiteUrl()),
     icons: {
       icon: [
-        { url: "/favicon.ico", sizes: "any" },
-        { url: "/favicon-32x32.png", sizes: "32x32", type: "image/png" },
-        { url: "/favicon-16x16.png", sizes: "16x16", type: "image/png" },
+        { url: withBasePath("/favicon.ico"), sizes: "any" },
+        { url: withBasePath("/favicon-32x32.png"), sizes: "32x32", type: "image/png" },
+        { url: withBasePath("/favicon-16x16.png"), sizes: "16x16", type: "image/png" },
       ],
-      apple: [{ url: "/apple-touch-icon.png", sizes: "180x180", type: "image/png" }],
-      shortcut: "/favicon.ico",
+      apple: [{ url: withBasePath("/apple-touch-icon.png"), sizes: "180x180", type: "image/png" }],
+      shortcut: withBasePath("/favicon.ico"),
     },
     ...base,
     ...(process.env.NEXT_PUBLIC_GSC_VERIFICATION
