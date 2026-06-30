@@ -1,0 +1,44 @@
+{
+  "regions": [
+    {
+      "name": "Islamabad",
+      "description": "Fast doorstep delivery across all major Islamabad sectors.",
+      "groups": [
+        {
+          "label": "F Sectors",
+          "areas": ["F-6", "F-7", "F-8", "F-10", "F-11", "F-11/1", "F-11/2", "F-11/3", "F-11/4"]
+        },
+        {
+          "label": "G Sectors",
+          "areas": ["G-6", "G-7", "G-8", "G-9", "G-10", "G-11", "G-13", "G-14", "G-15"]
+        },
+        {
+          "label": "I Sectors",
+          "areas": ["I-8", "I-9", "I-10", "I-11", "I-12", "I-14", "I-16"]
+        },
+        {
+          "label": "Other Islamabad",
+          "areas": ["Blue Area", "DHA Phase 1-5", "Bahria Town Islamabad", "PWD", "Soan Garden", "Park Road"]
+        }
+      ]
+    },
+    {
+      "name": "Rawalpindi",
+      "description": "Reliable delivery to homes and offices throughout Rawalpindi.",
+      "groups": [
+        {
+          "label": "Central & Commercial",
+          "areas": ["Saddar", "Raja Bazaar", "Commercial Market", "Murree Road", "Satellite Town"]
+        },
+        {
+          "label": "Residential",
+          "areas": ["Bahria Town Rawalpindi", "DHA Rawalpindi", "Peshawar Road", "Westridge", "Chaklala Scheme"]
+        },
+        {
+          "label": "Industrial & Offices",
+          "areas": ["I-9 Industrial", "G-9 Industrial", "Koral Chowk", "Airport Area"]
+        }
+      ]
+    }
+  ]
+}

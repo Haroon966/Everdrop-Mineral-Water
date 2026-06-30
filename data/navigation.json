@@ -1,0 +1,25 @@
+{
+  "header": [
+    { "label": "Products", "href": "/products/" },
+    { "label": "Delivery", "href": "/delivery/" },
+    { "label": "About", "href": "/about/" },
+    { "label": "Contact", "href": "/contact/" }
+  ],
+  "footer": {
+    "company": [
+      { "label": "About Us", "href": "/about/" },
+      { "label": "Services", "href": "/services/" },
+      { "label": "Products", "href": "/products/" },
+      { "label": "19L Water", "href": "/products/19l/" },
+      { "label": "Delivery Areas", "href": "/delivery/" },
+      { "label": "All Areas", "href": "/delivery/areas/" },
+      { "label": "Testimonials", "href": "/testimonials/" },
+      { "label": "Office Delivery", "href": "/office-water-delivery/" }
+    ],
+    "support": [
+      { "label": "Contact Us", "href": "/contact/" },
+      { "label": "Order on WhatsApp", "href": "https://wa.me/923006096599" },
+      { "label": "Delivery FAQ", "href": "/delivery/#faq" }
+    ]
+  }
+}

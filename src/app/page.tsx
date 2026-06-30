@@ -1,65 +1,53 @@
-import Image from "next/image";
+import { HomeCtaBand } from "@/components/home/home-cta-band";
+import { HomeFeatureBar } from "@/components/home/home-feature-bar";
+import { HomeHero } from "@/components/home/home-hero";
+import { HomeLocation } from "@/components/home/home-location";
+import { HomeProductRange } from "@/components/home/home-product-range";
+import { HomeHowToOrder } from "@/components/home/home-how-to-order";
+import { HomeServices } from "@/components/home/home-services";
+import { HomeWhyChoose } from "@/components/home/home-why-choose";
+import { HomeTestimonials } from "@/components/home/home-testimonials";
+import { JsonLd } from "@/components/seo/json-ld";
+import { getPageKeywords, getProducts, getSiteConfig, getTestimonials } from "@/lib/content";
+import { createMetadata } from "@/lib/metadata";
+import { localBusinessSchema, organizationSchema, itemListSchema, websiteSchema } from "@/lib/schema";
 
-export default function Home() {
+export const metadata = createMetadata({
+  title: "Premium Mineral Water Delivery",
+  description:
+    "Everdrop Pure Mineral Water — fast doorstep delivery of 19L mineral water bottles in Islamabad & Rawalpindi. Order on WhatsApp: 0300-6096599.",
+  path: "/",
+  keywords: getPageKeywords("/"),
+});
+
+export default function HomePage() {
+  const site = getSiteConfig();
+  const products = getProducts();
+  const testimonials = getTestimonials();
+
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
-        </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
-        </div>
-      </main>
-    </div>
+    <>
+      <JsonLd
+        data={[localBusinessSchema(), organizationSchema(), websiteSchema(), itemListSchema()]}
+      />
+
+      <HomeHero />
+
+      <HomeFeatureBar />
+
+      <HomeProductRange products={products} className="!pt-20 md:!pt-24 lg:!pt-28" />
+
+      <HomeServices site={site} />
+
+      <HomeHowToOrder />
+
+      <HomeWhyChoose site={site} />
+
+      <HomeTestimonials testimonials={testimonials} />
+
+      <HomeCtaBand />
+
+      <HomeLocation site={site} />
+    </>
   );
 }

@@ -1,0 +1,148 @@
+{
+  "products": [
+    {
+      "slug": "19l",
+      "name": "Everdrop 19L",
+      "size": "19L",
+      "price": 650,
+      "currency": "PKR",
+      "popular": true,
+      "tagline": "Perfect for homes & offices",
+      "description": "Premium 19L dispenser bottle for homes and offices. Fast, reliable delivery across Islamabad and Rawalpindi.",
+      "features": [
+        "Dispenser compatible",
+        "Best value for offices",
+        "Scheduled delivery available",
+        "Home & office use"
+      ],
+      "image": "/product-picture-19l.png",
+      "whatsappMessage": "Hi Everdrop, I'd like to order a 19L water bottle for delivery. My address/area is: ",
+      "faqs": [
+        {
+          "question": "How much does 19L water cost in Islamabad?",
+          "answer": "Everdrop 19L dispenser bottles are PKR 650 each with doorstep delivery included for most Islamabad and Rawalpindi areas."
+        },
+        {
+          "question": "Are Everdrop 19L bottles dispenser compatible?",
+          "answer": "Yes. Everdrop 19L bottles use the standard neck size compatible with most home and office water dispensers."
+        },
+        {
+          "question": "Can I schedule weekly 19L office delivery?",
+          "answer": "Yes. Many offices set up weekly or bi-weekly 19L delivery. Message us on WhatsApp with your address and preferred schedule."
+        },
+        {
+          "question": "How fast is 19L delivery in Islamabad?",
+          "answer": "Most 19L orders in Islamabad and Rawalpindi are delivered within 24 hours. Same-day delivery may be available for select sectors."
+        }
+      ]
+    },
+    {
+      "slug": "manual-pump-dispenser",
+      "name": "Manual Pump Dispenser",
+      "size": "Accessory",
+      "cardTitle": "Manual Pump Dispenser",
+      "price": 450,
+      "currency": "PKR",
+      "popular": false,
+      "tagline": "Easy hand pump for 19L bottles",
+      "priceLabel": "item",
+      "description": "Manual water dispenser pump for 19L bottles — simple, reliable, and ideal for homes without a full dispenser setup.",
+      "features": [
+        "Fits standard 19L neck bottles",
+        "No electricity required",
+        "Lightweight and portable",
+        "Easy to install and use"
+      ],
+      "image": "/images/manual-water-pump.png",
+      "whatsappMessage": "Hi Everdrop, I'd like to order a manual pump dispenser for 19L bottles. My delivery area is: ",
+      "faqs": [
+        {
+          "question": "Is the manual pump compatible with Everdrop 19L bottles?",
+          "answer": "Yes. The manual pump fits standard 19L neck bottles including Everdrop dispenser bottles."
+        }
+      ]
+    },
+    {
+      "slug": "gravity-dispenser",
+      "name": "Gravity Water Dispenser",
+      "size": "Accessory",
+      "cardTitle": "Water Dispenser",
+      "price": 450,
+      "currency": "PKR",
+      "popular": false,
+      "tagline": "Gravity-fed, no electricity",
+      "priceLabel": "item",
+      "description": "Standard water dispenser for 19L bottles — uses gravity to dispense water, no electricity required.",
+      "features": [
+        "Compatible with 19L bottles",
+        "Gravity-fed dispensing",
+        "No electricity required",
+        "Suitable for home and office"
+      ],
+      "image": "/images/2acessaries.jpeg",
+      "whatsappMessage": "Hi Everdrop, I'd like to enquire about a gravity water dispenser for 19L bottles. My delivery area is: ",
+      "faqs": [
+        {
+          "question": "Does the gravity dispenser work with standard 19L bottles?",
+          "answer": "Yes. Our gravity water dispensers are designed for standard 19L neck bottles including Everdrop."
+        },
+        {
+          "question": "Does this dispenser need electricity?",
+          "answer": "No. It uses gravity to dispense water — simply place the bottle on top and pour from the tap."
+        }
+      ]
+    },
+    {
+      "slug": "bottle-stand",
+      "name": "Bottle Stand & Accessories",
+      "size": "Accessory",
+      "cardTitle": "Bottle Stand",
+      "price": 450,
+      "currency": "PKR",
+      "popular": false,
+      "tagline": "Stable stand for 19L bottles",
+      "priceLabel": "item",
+      "description": "19L bottle stand and supporting accessories — keeps your dispenser setup stable and tidy.",
+      "features": [
+        "Supports standard 19L bottles",
+        "Sturdy home and office use",
+        "Pairs with pumps and dispensers",
+        "Available on request"
+      ],
+      "image": "/images/3acessaries.jpeg",
+      "whatsappMessage": "Hi Everdrop, I'd like to order a 19L bottle stand. My delivery area is: ",
+      "faqs": [
+        {
+          "question": "What is included with the bottle stand?",
+          "answer": "The bottle stand supports standard 19L bottles and can be paired with manual pumps or dispensers. Message us on WhatsApp for current availability."
+        }
+      ]
+    },
+    {
+      "slug": "home-office-setup",
+      "name": "Home & Office Setup",
+      "size": "Accessory",
+      "cardTitle": "Home & Office Setup",
+      "price": 450,
+      "currency": "PKR",
+      "popular": false,
+      "tagline": "Complete dispenser setup",
+      "priceLabel": "item",
+      "description": "Complete home and office water dispenser setup with 19L bottle accessories — everything you need in one place.",
+      "features": [
+        "Full home or office setup",
+        "19L bottle compatible",
+        "Dispenser and accessories bundle",
+        "Enquire for custom options"
+      ],
+      "image": "/images/4acessaries.jpeg",
+      "whatsappMessage": "Hi Everdrop, I'd like to enquire about a home/office water dispenser setup. My delivery area is: ",
+      "faqs": [
+        {
+          "question": "Can I get a full home or office water setup?",
+          "answer": "Yes. We offer complete dispenser setups for homes and offices. Message us on WhatsApp with your needs and we confirm options and pricing."
+        }
+      ]
+    }
+  ]
+}

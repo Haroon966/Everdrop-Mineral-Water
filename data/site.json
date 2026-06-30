@@ -1,0 +1,222 @@
+{
+  "brand": {
+    "name": "Everdrop Pure Mineral Water",
+    "shortName": "Everdrop",
+    "tagline": "Pure Drops of Nature",
+    "taglines": [
+      "Pure Drops of Nature",
+      "Pure & Refreshing – Naturally Balanced",
+      "Every Drop, Pure Trust"
+    ],
+    "description": "Premium 19L mineral water delivery in Islamabad and Rawalpindi. Fast, reliable doorstep delivery for homes and offices."
+  },
+  "contact": {
+    "phone": "0300-6096599",
+    "phoneRaw": "923006096599",
+    "email": "everdrop599@gmail.com",
+    "address": {
+      "street": "F11/1",
+      "city": "Islamabad",
+      "region": "Islamabad Capital Territory",
+      "country": "Pakistan",
+      "full": "F11/1, Islamabad, Pakistan"
+    },
+    "hours": "Open 24/7"
+  },
+  "social": {
+    "instagram": {
+      "handle": "@everdrop_599",
+      "url": "https://instagram.com/everdrop_599"
+    },
+    "facebook": {
+      "handle": "Everdrop Pure Mineral Water",
+      "url": "https://facebook.com"
+    },
+    "tiktok": {
+      "handle": "@everdrop_599",
+      "url": "https://tiktok.com"
+    },
+    "whatsapp": {
+      "url": "https://wa.me/923006096599"
+    }
+  },
+  "seo": {
+    "keywords": [
+      "mineral water Islamabad",
+      "19L water bottle delivery Islamabad",
+      "pure mineral water F11",
+      "Everdrop water",
+      "water delivery Rawalpindi",
+      "mineral water delivery Pakistan",
+      "office water dispenser Islamabad"
+    ],
+    "defaultTitle": "Everdrop Pure Mineral Water | Delivery in Islamabad & Rawalpindi",
+    "defaultDescription": "Premium 19L mineral water delivery in Islamabad & Rawalpindi. Fast doorstep delivery from F11/1. Call 0300-6096599."
+  },
+  "trustStats": [
+    { "value": "47+", "label": "Verified Reviews" },
+    { "value": "24hr", "label": "Fast Delivery" },
+    { "value": "100%", "label": "Pure Mineral Water" },
+    { "value": "F11/1", "label": "Based in Islamabad" }
+  ],
+  "values": [
+    {
+      "title": "Naturally Balanced",
+      "description": "Our water is sourced and bottled to preserve essential minerals for a crisp, refreshing taste."
+    },
+    {
+      "title": "Trusted Quality",
+      "description": "Every batch meets strict quality standards — pure, safe, and reliable for your family and office."
+    },
+    {
+      "title": "Fast Delivery",
+      "description": "Doorstep delivery across Islamabad and Rawalpindi. Order via WhatsApp and we handle the rest."
+    },
+    {
+      "title": "Premium Service",
+      "description": "19L dispenser bottles for homes and offices — we deliver what you need, when you need it."
+    }
+  ],
+  "services": [
+    {
+      "id": "home-delivery",
+      "title": "Home Water Delivery",
+      "summary": "Fast and reliable delivery of 19L mineral water bottles to homes across Islamabad.",
+      "highlights": [
+        "Fast and reliable delivery of 19L mineral water bottles to homes across Islamabad.",
+        "Flexible daily, weekly, and monthly delivery plans."
+      ]
+    },
+    {
+      "id": "office-corporate",
+      "title": "Office & Corporate Supply",
+      "summary": "Regular drinking water supply for offices, banks, schools, hospitals, and commercial businesses.",
+      "highlights": [
+        "Regular drinking water supply for offices, banks, schools, hospitals, and commercial businesses.",
+        "Bulk orders with timely delivery."
+      ]
+    },
+    {
+      "id": "bulk-supply",
+      "title": "Bulk Water Supply",
+      "summary": "Affordable pricing for restaurants, hotels, hostels, events, and institutions.",
+      "highlights": [
+        "Affordable pricing for restaurants, hotels, hostels, events, and institutions.",
+        "Customized supply plans based on your requirements."
+      ]
+    },
+    {
+      "id": "bottle-exchange",
+      "title": "Bottle Exchange Service",
+      "summary": "Easy exchange of empty 19L bottles with freshly filled, sealed bottles.",
+      "highlights": [
+        "Easy exchange of empty 19L bottles with freshly filled, sealed bottles.",
+        "Hygienic handling and quality assurance."
+      ]
+    },
+    {
+      "id": "quality-assurance",
+      "title": "Quality Assurance",
+      "summary": "Multi-stage purification and mineral balancing with regular laboratory testing.",
+      "highlights": [
+        "Multi-stage purification and mineral balancing.",
+        "Regular laboratory testing to ensure safe, healthy, and refreshing drinking water."
+      ]
+    },
+    {
+      "id": "customer-support",
+      "title": "Customer Support",
+      "summary": "Quick order placement and dedicated customer service for delivery scheduling.",
+      "highlights": [
+        "Quick order placement.",
+        "Dedicated customer service for delivery scheduling and inquiries."
+      ]
+    }
+  ],
+  "whyChoose": [
+    "100% Pure & Safe Drinking Water",
+    "Premium Quality Standards",
+    "Fast Delivery Across Islamabad",
+    "Affordable Prices",
+    "Trusted by Homes & Businesses",
+    "Hygienically Sealed Bottles"
+  ],
+  "deliveryFaq": [
+    {
+      "question": "How fast is delivery?",
+      "answer": "Most orders in Islamabad and Rawalpindi are delivered within 24 hours. Same-day delivery may be available for select areas — contact us on WhatsApp at 0300-6096599."
+    },
+    {
+      "question": "What areas do you cover?",
+      "answer": "We deliver across Islamabad sectors (F, G, I series and more) and major Rawalpindi areas including Bahria Town, DHA, and Saddar. See our delivery areas page for the full list."
+    },
+    {
+      "question": "How do I order a 19L bottle?",
+      "answer": "Message us on WhatsApp at 0300-6096599 with your address and quantity. We offer dispenser-compatible 19L bottles for homes and offices at PKR 650 per bottle."
+    },
+    {
+      "question": "Is there a minimum order?",
+      "answer": "No strict minimum for most areas. Bulk and office orders receive priority scheduling and may qualify for discounted rates."
+    },
+    {
+      "question": "What payment methods do you accept?",
+      "answer": "We accept cash on delivery, JazzCash, and bank transfer. Payment details are confirmed when you place your order on WhatsApp."
+    },
+    {
+      "question": "Is there an empty bottle deposit?",
+      "answer": "For 19L bottles, a refundable deposit may apply for first-time customers. Returning customers can exchange empty bottles on their next delivery at no extra charge."
+    },
+    {
+      "question": "How do I order on WhatsApp?",
+      "answer": "Save 0300-6096599, send a message with your area, address, quantity of 19L bottles, and any accessory needs. We confirm your order and delivery time within minutes."
+    },
+    {
+      "question": "How much does 19L water cost in Islamabad?",
+      "answer": "Everdrop 19L dispenser bottles are PKR 650 each with doorstep delivery included for most Islamabad and Rawalpindi areas. Office bulk orders may receive priority scheduling."
+    },
+    {
+      "question": "Are 19L bottles compatible with standard dispensers?",
+      "answer": "Yes. Everdrop 19L bottles use the standard neck size compatible with most home and office water dispensers. Manual pumps and gravity dispensers are also available on request."
+    },
+    {
+      "question": "Do you offer office bulk delivery?",
+      "answer": "Yes. We deliver scheduled 19L bottles to offices, clinics, gyms, and co-working spaces across Islamabad and Rawalpindi. Contact us for recurring delivery schedules."
+    },
+    {
+      "question": "What is the water quality and mineral content?",
+      "answer": "Everdrop is pure mineral water sourced and bottled to preserve essential minerals for a crisp, refreshing taste. Every batch meets strict quality standards for purity and safety."
+    },
+    {
+      "question": "Are there delivery fees by area?",
+      "answer": "Standard delivery to most Islamabad and Rawalpindi sectors is included in the bottle price. Remote or industrial zones may have a small delivery fee — we confirm this on WhatsApp before dispatch."
+    },
+    {
+      "question": "Can I get same-day delivery?",
+      "answer": "Same-day delivery is available for select sectors when you order before noon. Message us on WhatsApp with your area and we confirm availability immediately."
+    },
+    {
+      "question": "What is your replacement or refund policy?",
+      "answer": "If you receive a damaged or incorrect order, contact us on WhatsApp within 24 hours. We arrange a free replacement or refund at no extra cost."
+    },
+    {
+      "question": "Do you deliver on weekends and holidays?",
+      "answer": "Yes. Everdrop operates 24/7 including weekends and public holidays. Delivery times may vary on peak days — we always confirm your slot on WhatsApp."
+    },
+    {
+      "question": "Can I schedule recurring weekly delivery?",
+      "answer": "Yes. Many homes and offices set up weekly or bi-weekly 19L delivery schedules. Tell us your preferred day and quantity on WhatsApp and we handle the rest."
+    },
+    {
+      "question": "Do you sell water dispenser accessories?",
+      "answer": "Yes. Manual pumps, gravity dispensers, bottle stands, and home/office setups are available from PKR 450. Enquire on WhatsApp or visit our products page."
+    },
+    {
+      "question": "How do I return empty 19L bottles?",
+      "answer": "Hand empty bottles to our delivery team on your next order. We collect and exchange them at no extra charge for returning customers."
+    },
+    {
+      "question": "How do I contact Everdrop for support?",
+      "answer": "Call 0300-6096599, email everdrop599@gmail.com, or message us on WhatsApp anytime. We are based at F11/1, Islamabad and respond within minutes."
+    }
+  ]
+}
